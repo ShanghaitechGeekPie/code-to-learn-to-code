@@ -247,3 +247,10 @@ printf("%d\n", e);
 e = 97;
 printf("%c\n", e);
 // 打印a
+
+printf("Hello World!\n");
+// 打印Hello World！
+
+a = 1;
+printf("Give %d Second!\n", a);
+// 打印Give 1 Second！
