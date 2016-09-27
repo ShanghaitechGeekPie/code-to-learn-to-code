@@ -1,0 +1,191 @@
+C Programming Language 
+
+Jun MEI
+TA, Data Structures
+ShanghaiTech
+meijun@shanghaitech.edu.cn
+
+* Outline
+
+- Grammar
+    Function
+    Struct
+    Array
+    Pointer
+    Dynamic Memory
+    Macro
+- Command Line Arguments
+    int main(int argc, char *argv[])
+- Useful Headers
+    <stdio.h>
+    <string.h>
+    <math.h>
+    <stdlib.h>
+
+* Grammar
+
+* Function
+    ReturnType FunctionName (Arguments) {
+
+    }
+e.g.
+.code c/func.c
+
+* Function Declarations
+
+.code c/func_cyc.c
+Cyclical Invoke!!!
+
+Solution:
+.code c/func_cyc2.c
+
+* CLion Knows That
+
+CLion found there is an error:
+.image c/cyc.png
+
+* CLion Knows That
+
+CLion give me suggesstion to solve it:
+.image c/cyc2.png
+
+* CLion Knows That
+
+Choose Predeclare ...
+.image c/cyc3.png
+
+* Struct
+    
+    struct StructName {
+        Fileds
+    };
+
+e.g.
+.code c/struct.c 
+
+* Typedef
+
+    typedef TypeName NewName;
+
+e.g.
+.code c/typedef.c
+
+* Array
+
+    TypeName VarName[Size];
+
+e.g.
+.code c/array.c
+
+* String
+
+C string is a *char array*
+
+    char str1[] = "hi";
+    char str2[] = {'h', 'i', '\0'};
+
+Attention:
+To store N chars as a string, you need *N+1* bytes!
+
+* Pointer
+_Pointer_ is the *keypoint* of C!
+
+How to swap two variables?
+.code c/swap.c
+
+* Pointer
+
+Solution:
+.code c/swap2.c
+
+* Pointer
+
+Consider `scanf`
+
+    scanf("%d", &a);
+
+The symbol `&` means *the address of*
+The symbol `*` means *the value of*
+
+A pointer variable:
+
+    int a = 1;
+    int *b = &a; // b is the address of a
+
+* Pointer of Array
+
+    int a[10];
+    int *b = a; // Array is pointer?
+
+The i-th element of the array
+
+    a[3] = 1
+    b[3] = 2;
+    printf("%d\n", b[3]); // 2
+
+* Advanced Topics
+You may not need this.
+Learn it by yourself!
+
+- Dynamic Memory
+- Macro
+
+* Command Line Arguments
+* Command Line Arguments
+.code c/cli.c
+
+* Useful Headers
+
+* <stdio.h>
+
+- printf
+- sprintf
+- scanf
+- sscanf
+
+File IO
+
+- fopen, fflush, fclose, ...
+- freopen
+
+.link http://en.cppreference.com/w/c/io See here 
+* <string.h>
+
+- strlen
+- strcmp
+- strcpy
+- strcat
+
+Find
+
+- strchr
+- strstr
+
+Memory
+
+- memcmp
+- memcpy
+
+.link http://en.cppreference.com/w/c/string/byte See here
+
+* <math.h>
+- abs
+- sqrt
+- pow, log, ...
+- sin, cos, tan, ...
+- ceil, floor, ...
+- fmin, fmax, ...
+
+.link http://en.cppreference.com/w/c/numeric/math See here
+
+* <stdlib.h>
+- rand
+- exit
+- malloc, free, ...
+See 
+.link http://en.cppreference.com/w/c/numeric/random here,
+.link http://en.cppreference.com/w/c/memory here, 
+.link http://en.cppreference.com/w/c/program and here.
+
+* Learn by yourself
+.link http://en.cppreference.com/w/c C Reference!
