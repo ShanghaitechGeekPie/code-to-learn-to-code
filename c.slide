@@ -46,7 +46,7 @@ CLion found there is an error:
 
 * CLion Knows That
 
-CLion give me suggesstion to solve it:
+CLion gives me two suggesstions:
 .image c/cyc2.png
 
 * CLion Knows That
@@ -187,5 +187,5 @@ See
 .link http://en.cppreference.com/w/c/memory here, 
 .link http://en.cppreference.com/w/c/program and here.
 
-* Learn by yourself
+* Learn by Yourself
 .link http://en.cppreference.com/w/c C Reference!
