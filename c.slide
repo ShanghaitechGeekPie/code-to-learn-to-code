@@ -79,7 +79,7 @@ e.g.
 
 * String
 
-C string is a *char array*
+C string is a *char_array*
 
     char str1[] = "hi";
     char str2[] = {'h', 'i', '\0'};
@@ -104,8 +104,8 @@ Consider `scanf`
 
     scanf("%d", &a);
 
-The symbol `&` means *the address of*
-The symbol `*` means *the value of*
+The symbol `&` means *the_address_of*
+The symbol `*` means *the_value_of*
 
 A pointer variable:
 
