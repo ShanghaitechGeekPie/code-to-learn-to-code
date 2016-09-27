@@ -46,12 +46,12 @@ CLion found there is an error:
 
 * CLion Knows That
 
-CLion gives me two suggesstions:
+CLion gave me two suggesstions:
 .image c/cyc2.png
 
 * CLion Knows That
 
-Choose Predeclare ...
+Chose Predeclare ...
 .image c/cyc3.png
 
 * Struct
