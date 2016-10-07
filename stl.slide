@@ -1,0 +1,99 @@
+C++ STL & HW1 Date Conversion
+
+Jun MEI
+TA, Data Structures
+ShanghaiTech
+meijun@shanghaitech.edu.cn
+
+* Outline
+
+- Containers
+- Algorithm
+- HW1 Date Conversion
+
+* Containers
+
+* Containers
+.link http://www.cplusplus.com/reference/stl/ See here!
+.image stl/containers.png
+
+* Containers
+.link http://www.cplusplus.com/reference/stl/ See here!
+.image stl/containers2.png
+
+* vector
+
+- vector<int>(n, 0)
+- push_back
+- pop_back
+- []
+- size
+
+* vector
+e.g.
+.code stl/vector.cpp
+
+* stack
+
+- empty
+- size
+- top 
+- push 
+- pop 
+
+* queue
+
+- empty
+- size 
+- front 
+- back 
+- push 
+- pop 
+
+* priority_queue
+
+- empty 
+- size 
+- top 
+- push 
+- pop 
+
+* map
+
+- []
+- count
+- erase
+
+* map
+.code stl/map.cpp
+
+* Algorithm
+
+* Algorithm
+
+.link http://www.cplusplus.com/reference/algorithm/ See here!
+
+- reverse
+- random_shuffle
+- sort
+- lower_bound
+- next_permutation
+- unique
+
+* Algorithm
+.code stl/algo.cpp
+
+* Algorithm
+.code stl/algo2.cpp
+
+* Algorithm
+.code stl/algo3.cpp
+
+* HW1 Date Conversion
+
+* HW1 Date Conversion
+.code stl/date.cpp
+* HW1 Date Conversion
+.code stl/date2.cpp
+* HW1 Date Conversion
+.code stl/date3.cpp
