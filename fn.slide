@@ -1,0 +1,60 @@
+C++ Functional Programming & HW1 Date Formation
+
+Jun MEI
+TA, Data Structures
+ShanghaiTech
+meijun@shanghaitech.edu.cn
+
+* Outline
+
+- Functional Programming
+- HW1 Date Formation
+- HackerRank
+
+* Functional Programming
+
+* Functional Programming
+.code fn/fn.cpp
+
+* Functional Programming
+.code fn/fn2.cpp
+
+* HW1 Date Formation
+
+* Year Information
+.code fn/output1.txt
+
+* Month Information
+.code fn/output2.txt
+
+* Year Information
+.code fn/year.cpp
+
+* Month Information
+.code fn/month.cpp
+
+* How to Implement fill_table?
+
+    def fill_table(y, m):
+
+Recomment Function 
+
+- sprintf
+- gg_next_day
+- st_next_day
+
+Tips
+
+- Fill the table day by day.
+- Calc the position of each day.
+
+* HackerRank
+
+* Cycle Detection
+.code fn/hr1.cpp
+
+* Reverse a doubly linked list
+.code fn/hr2.cpp
+
+* Simple Text Editor
+.code fn/hr3.cpp
